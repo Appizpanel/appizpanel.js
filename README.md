@@ -1,0 +1,1 @@
+# appizpanel.js
