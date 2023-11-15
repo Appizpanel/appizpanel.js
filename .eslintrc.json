@@ -1,0 +1,14 @@
+{
+  "extends": ["eslint:recommended", "plugin:tsconfig/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "plugins": ["tsconfig"],
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+  }
+}

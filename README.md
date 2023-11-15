@@ -1,1 +1,4 @@
-# appizpanel.js
+The official Appizpanel JavaScript library.
+
+# Appizpanel.js
+
