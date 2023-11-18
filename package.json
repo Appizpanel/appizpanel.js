@@ -1,19 +1,41 @@
 {
   "name": "appizpanel",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "your ultimate client for efficiently managing assests in websites without static admin panels",
-  "main": "appizpanel.js",
+  "main": "lib/appizpanel.js",
   "directories": {
     "lib": "lib",
-    "test": "test"
+    "test": "jest --env node --coverage --no-cache",
+    "test-unit": "jest --env node"
   },
+  "keywords": [
+    "static-site",
+    "dynamic-pages",
+    "single-page-application",
+    "javascript-client",
+    "responsive-design",
+    "front-end",
+    "progressive-web-app",
+    "static-to-dynamic",
+    "flexible-architecture",
+    "modern-web",
+    "javascript-framework",
+    "seo-friendly",
+    "fast-loading"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "appizsoft.com",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@types/jest": "^29.5.8",
     "eslint": "^8.53.0",
-    "prettier": "^3.1.0"
+    "jest": "^29.7.0",
+    "prettier": "^3.1.0",
+    "semver": "^7.5.4",
+    "ts-jest": "^29.1.1"
   }
 }
